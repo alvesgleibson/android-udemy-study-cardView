@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
         //Define Layaout Nesse caso sera Vertical
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+
+        //Esse Codigo seta o CardView para Horizontal
+        layoutManager.setOrientation(RecyclerView.HORIZONTAL);
         recyclerPostagem.setLayoutManager(layoutManager);
 
         //define Adapter
